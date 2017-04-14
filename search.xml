@@ -3,8 +3,15 @@
   
     
     <entry>
-      <title><![CDATA[文章标题]]></title>
-      <url>%2F2017%2F04%2F12%2F%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%2F</url>
+      <title><![CDATA[搭建我的博客]]></title>
+      <url>%2F2017%2F04%2F14%2F%E6%90%AD%E5%BB%BA%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%2F</url>
+      <content type="text"><![CDATA[今天，就来讲一下我之前的搭博客之旅把 之前一直想搭个博客，但是一直没有好的前端技术。尝试做了一个，觉得前端太丑（连上去写东西都没欲望T_T），就改学redis了，没有使用传统sql，纯用redis做数据库做了一个博客，感觉学到了挺多，但是做出来的东西没有用到~ 在前几天，在查问题的时候发现了hexo和jekyll，都可以用来搭博客，而且网上主题大把，解决了我前端的短肋，哈哈。两者的区别是，前者是需要node.js，后者是需要Ruby，我选择了相对熟悉一点的node.js。 上网查了两个教程，就开撸啦 –20分钟教你使用hexo搭建github博客–手把手教你建github技术博客 实现过程还是挺简单的，后面做完了，找了next的主题，在主题的官网上（主题也有官网，又长了见识，不过确实是功能太强大！赞赞）根据第三方服务教程加了几个插件： 评论 搜索 统计 做到这里博客的基本功能就都可以了，后面有时间的话，我想根据自己的喜好做一些修改的，不过嘛，得克服我的懒癌再说~ 写博客的过程中发现排版完全不行，所以只能再次百度- -|| –如何写一篇hexo博客 贴一些hexo的常用命令，自己看 12345678$ hexo help #查看帮助$ hexo init #初始化一个目录$ hexo new "postName" #新建文章$ hexo new page "pageName" #新建页面$ hexo generate #生成网页，可以在 public 目录查看整个网站的文件$ hexo server #本地预览，'Ctrl+C'关闭$ hexo deploy #部署.deploy目录$ hexo clean #清除缓存]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[hello]]></title>
+      <url>%2F2017%2F04%2F12%2Fhello%2F</url>
       <content type="text"><![CDATA[你好，欢迎来到我的个人技术博客。后续更新！~~]]></content>
     </entry>
 
